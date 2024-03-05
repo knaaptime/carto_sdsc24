@@ -1,4 +1,4 @@
-name: carto_sdsc23
+name: carto_sdsc24
 channels:
   - conda-forge
   - defaults
@@ -27,3 +27,4 @@ dependencies:
   - geosnap
   - pandana
   - h3-py
+  - ipython

@@ -1,10 +1,8 @@
-# PySAL for Spatial Data Science @ CARTO SDSC 2023
+# PySAL for Spatial Data Science @ CARTO SDSC 2024 San Francisco
 
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/knaaptime/pysal_carto_sdss/main?urlpath=lab)
+[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/knaaptime/carto_sdsc24)
 
-[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/knaaptime/carto_sdsc23)
-
-workshop on spatial data science with Python delivered at CARTO SDSC 2023
+workshop on spatial data science with Python delivered at CARTO SDSC 2024 San Francisco
 
 <p align="center">
 <img height=200 src='docs/figs/pysal_logo.png' >
@@ -36,7 +34,7 @@ workshop on spatial data science with Python delivered at CARTO SDSC 2023
 - `cd carto_sdsc23`
 - if you dont have mamba, run `conda install mamba -y`
 - `make environment` or `mamba env create`
-- `conda activate carto_sdsc23`
+- `conda activate carto_sdsc24`
 - `jupyter lab`
 
 ### Follow along in the cloud
@@ -48,4 +46,4 @@ remember that your cloud resources will be limited so not everything may work (o
 [![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/knaaptime/pysal_carto_sdss)
 
 #### Binder 
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/knaaptime/pysal_carto_sdss/main?urlpath=lab)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/knaaptime/pysal_carto_sdsc24/main?urlpath=lab)

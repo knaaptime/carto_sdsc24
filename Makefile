@@ -7,7 +7,7 @@ SHELL=/bin/bash
 #################################################################################
 
 CONDA_BASE=$(shell conda info --base)
-CONDA_ENVIRONMENT = carto_sdsc23
+CONDA_ENVIRONMENT = carto_sdsc24
 
 #################################################################################
 # COMMANDS                                                                      #
@@ -33,7 +33,7 @@ git:
 ## Run notebooks
 notebooks:
 	@source "$(CONDA_BASE)/bin/activate" $(CONDA_ENVIRONMENT);\
-	jupyter nbconvert --to notebook --execute --inplace --ExecutePreprocessor.timeout=-1 --ExecutePreprocessor.kernel_name=$(CONDA_ENVIRONMENT) notebooks/*.ipynb;
+	jupyter nbconvert --to notebook --execute --inplace --ExecutePreprocessor.timeout=-1 --ExecutePreprocessor.kernel_name=$(CONDA_ENVIRONMENT) content/*.ipynb;
 
 clear-notebooks:
 	@source "$(CONDA_BASE)/bin/activate" $(CONDA_ENVIRONMENT);\
