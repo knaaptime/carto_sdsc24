@@ -12,6 +12,13 @@ workshop on spatial data science with Python delivered at CARTO SDSC 2024 San Fr
 
 * [eli knaap](https://knaaptime.com) - [center for open geographical sciences](https://cogs.sdsu.edu) @ sdsu
 
+### Additional Resources
+
+- [Geographic Data Science with Python](https://geographicdata.science/book/intro.html)
+- [A Guide to Geosnap](https://oturns.github.io/geosnap-guide/)
+- [PySAL - The Python Spatial Analysis Library](https://pysal.org)
+- [Urban Analysis & Spatial Science (WIP)](https://knaaptime.com/urban_analysis/)
+
 ---
 
 ## Schedule
@@ -30,8 +37,8 @@ workshop on spatial data science with Python delivered at CARTO SDSC 2024 San Fr
 
 - make sure you have anaconda installed
     - we recommend the [miniforge distribution](https://github.com/conda-forge/miniforge)
-- ` git clone https://github.com/knaaptime/carto_sdsc23.git`
-- `cd carto_sdsc23`
+- ` git clone https://github.com/knaaptime/carto_sdsc24.git`
+- `cd carto_sdsc24`
 - if you dont have mamba, run `conda install mamba -y`
 - `make environment` or `mamba env create`
 - `conda activate carto_sdsc24`
@@ -43,7 +50,7 @@ remember that your cloud resources will be limited so not everything may work (o
 
 #### Github Codespaces
 
-[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/knaaptime/pysal_carto_sdss)
+[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/knaaptime/pysal_carto_sdsc24)
 
 #### Binder 
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/knaaptime/pysal_carto_sdsc24/main?urlpath=lab)

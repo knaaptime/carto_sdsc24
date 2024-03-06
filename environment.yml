@@ -1,12 +1,9 @@
 name: carto_sdsc24
 channels:
   - conda-forge
-  - defaults
 dependencies:
-  - python =3.11
-  - mamba
+  - python >=3.10
   - bokeh
-  - pip
   - geopandas
   - descartes
   - folium
@@ -24,7 +21,10 @@ dependencies:
   - watermark
   - rasterio
   - contextily
-  - geosnap
+  - geosnap>=0.13.1
   - pandana
   - h3-py
   - ipython
+  - pip
+  - pip: # get dev esda
+    - git+https://github.com/pysal/esda.git
