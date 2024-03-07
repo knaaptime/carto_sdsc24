@@ -26,4 +26,4 @@ dependencies:
   - ipython
   - pip
   - pip: # get dev esda
-    - git+https://github.com/pysal/esda.git --no-deps
+    - git+https://github.com/pysal/esda.git
