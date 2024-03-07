@@ -2,6 +2,7 @@ name: carto_sdsc24
 channels:
   - conda-forge
 dependencies:
+  - python =3.11
   - bokeh
   - geopandas
   - descartes
