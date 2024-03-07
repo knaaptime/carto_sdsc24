@@ -2,7 +2,6 @@ name: carto_sdsc24
 channels:
   - conda-forge
 dependencies:
-  - python =3.10
   - bokeh
   - geopandas
   - descartes
@@ -27,4 +26,4 @@ dependencies:
   - ipython
   - pip
   - pip: # get dev esda
-    - git+https://github.com/pysal/esda.git
+    - git+https://github.com/pysal/esda.git --no-deps
