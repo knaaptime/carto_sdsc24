@@ -1,6 +1,7 @@
 # PySAL for Spatial Data Science @ CARTO SDSC 2024 San Francisco
 
 [![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/knaaptime/carto_sdsc24)
+[![Open in Codeanywhere](https://codeanywhere.com/img/open-in-codeanywhere-btn.svg)](https://app.codeanywhere.com/#https://github.com/knaaptime/carto_sdsc24/blob/d3d33900267f930debd3414e14a95e86247ef35f/README.md)
 
 workshop on spatial data science with Python delivered at CARTO SDSC 2024 San Francisco
 
